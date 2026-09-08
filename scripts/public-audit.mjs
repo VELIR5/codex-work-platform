@@ -290,14 +290,14 @@ const onboardingContracts = [
     path: "README.md",
     patterns: [
       /releases\/latest/,
-      /windows-x64\.zip/,
+      /Windows ZIP/,
       /Keep the launcher window open/,
       /docs\/user-guide\.md/,
     ],
   },
   {
     path: "README.zh-CN.md",
-    patterns: [/releases\/latest/, /windows-x64\.zip/, /保持启动窗口打开/],
+    patterns: [/releases\/latest/, /Windows ZIP/, /保持启动窗口或终端打开/],
   },
   {
     path: "installer/install-windows.cmd",
